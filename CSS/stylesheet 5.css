@@ -1,0 +1,51 @@
+.heading{ 
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 5% ;
+  margin-top: 5%;
+}
+  
+aside{
+    background-color: black;
+    width: 20%; height: 20%;
+    text-align: left;
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 5% ;
+    padding-bottom: 5%;
+    font-size: 20px;
+}
+    
+    footer{
+        background-color: bisque;
+        border: dotted;
+        margin-left: 5% ; 
+        margin-right: 5%;
+        margin-bottom: 5%;
+        padding-left: 5%;
+    }
+
+    a {background-color: beige;
+    color: rebeccapurple;}
+    
+   img{
+    border-radius: 50%;
+    border: 3px solid white;
+   } 
+   .content {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: white;
+    border-style: groove;
+    padding-left: 5%;
+   }
+   body{
+    border-style: groove;
+   }
+    

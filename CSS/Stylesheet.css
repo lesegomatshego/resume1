@@ -1,0 +1,25 @@
+header{ 
+    background-color: blue;
+    color: white;
+    text-align: centre;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+}
+aside{
+    background-color: black;
+    width: 20%; height: 20%
+    text-align: left;
+    color: white;
+
+}
+   body {
+    background-color: aqua;
+
+    footer{
+        background-color: bisque;
+    }
+
+    a {background-color: beige;
+    color: rebeccapurple;}
+    
+    
