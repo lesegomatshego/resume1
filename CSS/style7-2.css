@@ -1,7 +1,7 @@
 header{ 
-    background-image: url(../Images/backgroundImage.jpg);
-    color: white;
-    text-align: center;
+    background-image: url(../Images/backgroundImage1.jpg);
+    color: rgb(0, 0, 0);
+    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: medium;
     margin-left: 5%;
@@ -82,4 +82,10 @@ header{
      }
      .item3{
         width: fit-content;
+     }
+     img{
+        padding-left: ;
+     }
+     .pic{
+        text-align: center;
      }
