@@ -92,14 +92,53 @@ header{
      }
      /*code for mobile devices smaller than 600px*/
 body { background-color: rgb(255, 0, 93); }
+  a {background-color: beige;
+    color: rebeccapurple;
+}
+.Flex-container{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: bisque;
+    border-radius: 10%;
+    border-style: groove;
+   }
+
+    
+
+    
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     body { background-color: rgb(79, 128, 0); }
  } 
-
+ a {background-color: beige;
+    color: rebeccapurple;
+}
+.Flex-container{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: bisque;
+    border-radius: 10%;
+    border-style: groove;
+   }
  /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     body { background-color: rgb(0, 179, 255); }
  } 
+ a {background-color: beige;
+    color: rebeccapurple;
+}
+.Flex-container{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: bisque;
+    border-radius: 10%;
+    border-style: groove;
+   }
  
