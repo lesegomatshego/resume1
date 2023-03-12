@@ -69,7 +69,7 @@ header{
         background-color: blue;
         border-color:white;
      }
-     .Flex-container{
+     .container{
       display: flex;
       flex-wrap: nowrap;
       flex-direction: column;
@@ -90,40 +90,19 @@ header{
      .pic{
         text-align: center;
      }
-     /*code for mobile devices smaller than 600px*/
-body { font-style:italic rgb(255, 0, 93); }
-  a {background-color: beige;
-    color: rebeccapurple;
+     
+/*code for mobile devices smaller than 600px*/
+a { background-color: yellowgreen;
+    color: aquamarine;
 }
-.Flex-container{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: space-around;
-    background-color: bisque;
-    border-radius: 10%;
-    border-style: groove;
-   }
-
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    body { background-color: rgb(79, 128, 0); }
+    .container { background-color: pink; 
+     font-size: 80px;
+    }
  } 
- a {background-color: beige;
-    color: rebeccapurple;
-}
 
  /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    body { : rgb(0, 179, 255); }
+    body { background-color: yellow; }
  } 
-.Flex-container{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: space-around;
-    background-color: bisque;
-    border-radius: 10%;
-    border-style: groove;
-   }
- 
