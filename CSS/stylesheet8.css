@@ -93,16 +93,30 @@ header{
      
 /*code for mobile devices smaller than 600px*/
 a { background-color: yellowgreen;
-    color: aquamarine;
-}
+    color: aquamarine;}
+.container { background-color:transparent;}
+
+
+
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .container { background-color: pink; 
      font-size: 80px;
     }
- } 
+    a { background-color:transparent ;
+        color: red;}
+
+    }
+ 
 
  /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    body { background-color: yellow; }
- } 
+    body { background-color: yellow;
+      
+    }
+   .container { background-color:transparent;}
+   a { color: red;}
+
+   }
+
